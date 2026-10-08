@@ -248,6 +248,23 @@ h3 {
     color: var(--accent);
 }
 
+.intro-copy h1 .intro-heading-line {
+    display: block;
+    color: var(--ink);
+    opacity: 0;
+    animation: heading-arrive .6s cubic-bezier(.2, .75, .25, 1) forwards;
+}
+
+.intro-copy h1 .intro-heading-line:nth-child(1) { animation-delay: .18s; }
+.intro-copy h1 .intro-heading-line:nth-child(2) { animation-delay: .34s; }
+.intro-copy h1 .intro-heading-line:nth-child(3) { animation-delay: .5s; }
+.intro-copy h1 .intro-heading-accent { color: var(--accent); }
+
+@keyframes heading-arrive {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .intro-lede {
     max-width: 405px;
     margin: 25px 0 32px;
@@ -409,9 +426,9 @@ h3 {
 
 .title-content {
     position: absolute;
-    top: 16%;
+    top: 14%;
     left: 10%;
-    width: min(540px, 65%);
+    width: min(620px, 78%);
     animation: title-rise .9s .12s both;
 }
 
@@ -432,7 +449,7 @@ h3 {
 }
 
 .title-content h2 {
-    font-size: 88px;
+    font-size: 76px;
     line-height: .91;
     margin: 28px 0 12px;
     font-weight: 600;
@@ -1706,6 +1723,14 @@ body[data-theme="midnight"] .global-slide {
         font-size: 44px;
     }
 
+    .title-content {
+        width: 76%;
+    }
+
+    .title-content h2 {
+        font-size: 64px;
+    }
+
     .cause-list {
         column-gap: 12px;
     }
@@ -1839,28 +1864,29 @@ body[data-theme="midnight"] .global-slide {
 
     .title-content {
         left: 7%;
-        top: 14%;
+        top: 12%;
         width: 86%;
     }
 
     .title-content h2 {
-        margin: 20px 0 10px;
-        font-size: 58px;
+        margin: 15px 0 9px;
+        font-size: 42px;
+        line-height: 1;
     }
 
     .title-subtitle {
-        margin-bottom: 20px;
-        font-size: 14px;
+        margin-bottom: 14px;
+        font-size: 13px;
     }
 
     .title-hook {
-        font-size: 11px;
-        line-height: 1.7;
+        font-size: 10px;
+        line-height: 1.5;
     }
 
     .title-tag {
-        margin-top: 22px;
-        font-size: 8px;
+        margin-top: 14px;
+        font-size: 9px;
     }
 
     .title-credit {
@@ -1933,9 +1959,9 @@ body[data-theme="midnight"] .global-slide {
     }
 
     .quote-card {
-        right: -18%;
+        right: 0;
         bottom: 10px;
-        width: 69%;
+        width: 80%;
         padding: 10px 12px;
     }
 
@@ -2480,13 +2506,13 @@ body[data-theme="midnight"] .global-slide {
     }
 }
 
+/* Supporting copy sizes; responsive rules below may tune these for small screens. */
 .eyebrow { font-size: 10px; }
 .wordmark { font-size: 11px; }
 .theme-name { font-size: 12px; }
 .intro-lede { font-size: 16px; }
 .intro-bottom { font-size: 10px; }
-.photo-caption { font-size: 10px; }
-.photo-caption span:last-child { font-size: 10px; }
+.photo-caption, .photo-caption span:last-child { font-size: 10px; }
 .team-names span { font-size: 10px; }
 .team-names input { font-size: 12px; }
 .slide-footer { font-size: 10px; }
@@ -2576,6 +2602,9 @@ body[data-theme="midnight"] .global-slide {
     .status-title { font-size: 9px; }
     .next-button { font-size: 10px; }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .intro-copy h1 .intro-heading-line { opacity: 1; animation: none; }
 
 @media (prefers-reduced-motion: reduce) {
 

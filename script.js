@@ -35,7 +35,9 @@ function showSlide(index) {
   progressFill.style.width = `${((activeIndex + 1) / slides.length) * 100}%`;
   previousButton.disabled = activeIndex === 0;
   nextButton.querySelector('span').textContent = activeIndex === slides.length - 1 ? 'Start again' : 'Next slide';
-  document.title = `${slide.dataset.title} | Beyond the First Choice`;
+  document.title = slide.dataset.title === 'Drug Abuse Among Youth'
+    ? slide.dataset.title
+    : `${slide.dataset.title} | Drug Abuse Among Youth`;
 }
 
 function cycleTheme() {

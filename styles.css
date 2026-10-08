@@ -2482,65 +2482,99 @@ body[data-theme="midnight"] .global-slide {
 
 .eyebrow { font-size: 10px; }
 .wordmark { font-size: 11px; }
+.theme-name { font-size: 12px; }
+.intro-lede { font-size: 16px; }
+.intro-bottom { font-size: 10px; }
 .photo-caption { font-size: 10px; }
 .photo-caption span:last-child { font-size: 10px; }
 .team-names span { font-size: 10px; }
 .team-names input { font-size: 12px; }
 .slide-footer { font-size: 10px; }
-.title-credit { font-size: 9px; }
+.title-subtitle { font-size: 19px; }
+.title-hook { font-size: 15px; }
+.title-credit { font-size: 10px; }
 .title-tag { font-size: 10px; }
-.source-note { font-size: 9px; }
+.body-lede { font-size: 15px; }
+.heading-aside { font-size: 13px; }
+.source-note { font-size: 10px; }
 .cause-list strong { font-size: 12px; }
-.cause-list small { font-size: 10px; }
-.quote-card > span, .quote-card small { font-size: 9px; }
+.cause-list small { font-size: 11px; }
+.quote-card > span, .quote-card small { font-size: 10px; }
 .type-index { font-size: 9px; }
 .drug-type p { font-size: 12px; }
-.drug-type small { font-size: 10px; }
+.drug-type small { font-size: 11px; }
 .bottom-callout { font-size: 12px; }
-.chart-head { font-size: 9px; }
-.chart-scale, .pak-labels { font-size: 9px; }
-.chart-footnote { font-size: 9px; }
-.campus-facts p { font-size: 10px; }
-.campus-facts b { font-size: 11px; }
-.pakistan-chart > p, .pak-context > p:not(.big-context) { font-size: 11px; }
-.data-warning p { font-size: 10px; }
-.image-index, .image-disclaimer { font-size: 9px; }
-.prevention-steps strong, .support-steps strong { font-size: 11px; }
-.prevention-steps small, .support-steps small { font-size: 9px; }
-.duty-column li { font-size: 10px; }
-.duty-bottom span { font-size: 9px; }
-.sources-label { font-size: 9px; }
-.sources-panel a > span { font-size: 10px; }
-.sources-panel a small, .closing-citation { font-size: 9px; }
+.chart-head { font-size: 10px; }
+.bar-row { font-size: 11px; }
+.bar-row > strong { font-size: 12px; }
+.chart-scale, .pak-labels { font-size: 10px; }
+.chart-footnote { font-size: 10px; }
+.campus-facts p { font-size: 11px; }
+.campus-facts b { font-size: 12px; }
+.pakistan-chart > p, .pak-context > p:not(.big-context) { font-size: 12px; }
+.data-warning p { font-size: 11px; }
+.image-index, .image-disclaimer { font-size: 10px; }
+.prevention-steps strong, .support-steps strong { font-size: 12px; }
+.prevention-steps small, .support-steps small { font-size: 10px; }
+.duty-column li { font-size: 11px; }
+.duty-bottom span { font-size: 10px; }
+.sources-label { font-size: 10px; }
+.sources-panel a > span { font-size: 11px; }
+.sources-panel a small, .closing-citation { font-size: 10px; }
+.orbit-label { font-size: 9px; }
+.orbit-center { font-size: 13px; }
+.list-no, .effects-list > div > span { font-size: 9px; }
+.effects-list strong { font-size: 13px; }
+.effects-list small { font-size: 11px; }
+.speaker-status { font-size: 9px; }
+.status-title { font-size: 11px; }
+.next-button { font-size: 11px; }
 
 @media (max-width: 620px) {
     .eyebrow { font-size: 9px; }
     .wordmark { font-size: 9px; }
+    .intro-lede { font-size: 12px; }
+    .intro-bottom { font-size: 9px; }
     .photo-caption, .photo-caption span:last-child { font-size: 9px; }
     .team-names span, .team-names input { font-size: 10px; }
     .slide-footer, .title-credit { font-size: 9px; }
-    .title-tag, .source-note { font-size: 8px; }
+    .title-subtitle { font-size: 15px; }
+    .title-hook { font-size: 12px; }
+    .title-credit { font-size: 8px; }
+    .title-tag, .source-note { font-size: 9px; }
+    .body-lede { font-size: 12px; }
+    .heading-aside { font-size: 11px; }
     .cause-list strong { font-size: 10px; }
-    .cause-list small { font-size: 8px; }
-    .quote-card > span, .quote-card small { font-size: 8px; }
-    .type-index { font-size: 8px; }
-    .drug-type p { font-size: 9px; }
-    .drug-type small { font-size: 8px; }
-    .bottom-callout { font-size: 9px; }
-    .chart-head, .chart-scale, .pak-labels { font-size: 8px; }
-    .chart-footnote { font-size: 8px; }
-    .campus-facts p { font-size: 8px; }
-    .campus-facts b { font-size: 9px; }
-    .pakistan-chart > p, .pak-context > p:not(.big-context) { font-size: 9px; }
-    .data-warning p { font-size: 8px; }
-    .image-index, .image-disclaimer { font-size: 8px; }
-    .prevention-steps strong, .support-steps strong { font-size: 9px; }
-    .prevention-steps small, .support-steps small { font-size: 8px; }
-    .duty-column li { font-size: 8px; }
-    .duty-bottom span { font-size: 8px; }
-    .sources-label { font-size: 8px; }
-    .sources-panel a > span { font-size: 8px; }
-    .sources-panel a small, .closing-citation { font-size: 8px; }
+    .cause-list small { font-size: 9px; }
+    .quote-card > span, .quote-card small { font-size: 9px; }
+    .type-index { font-size: 9px; }
+    .drug-type p { font-size: 10px; }
+    .drug-type small { font-size: 9px; }
+    .bottom-callout { font-size: 10px; }
+    .chart-head, .chart-scale, .pak-labels { font-size: 9px; }
+    .bar-row { font-size: 9px; }
+    .bar-row > strong { font-size: 10px; }
+    .chart-footnote { font-size: 9px; }
+    .campus-facts p { font-size: 9px; }
+    .campus-facts b { font-size: 10px; }
+    .pakistan-chart > p, .pak-context > p:not(.big-context) { font-size: 10px; }
+    .data-warning p { font-size: 9px; }
+    .image-index, .image-disclaimer { font-size: 9px; }
+    .prevention-steps strong, .support-steps strong { font-size: 10px; }
+    .prevention-steps small, .support-steps small { font-size: 9px; }
+    .duty-column li { font-size: 9px; }
+    .duty-bottom span { font-size: 9px; }
+    .sources-label { font-size: 9px; }
+    .sources-panel a > span { font-size: 9px; }
+    .sources-panel a small, .closing-citation { font-size: 9px; }
+    .orbit-label { font-size: 7px; }
+    .orbit-center { font-size: 9px; }
+    .list-no, .effects-list > div > span { font-size: 8px; }
+    .effects-list strong { font-size: 10px; }
+    .effects-list small { font-size: 8px; }
+    .speaker-status { font-size: 8px; }
+    .status-title { font-size: 9px; }
+    .next-button { font-size: 10px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

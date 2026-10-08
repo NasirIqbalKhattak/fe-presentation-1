@@ -27,6 +27,7 @@ body {
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
+    font-weight: 400;
     background: var(--page);
     color: var(--ink);
     transition: background .35s ease, color .35s ease;
